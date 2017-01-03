@@ -1,0 +1,9 @@
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\ccNN.exe.config
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\ccNN.exe
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\ccNN.pdb
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.csprojResolveAssemblyReference.cache
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.Form1.resources
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.Properties.Resources.resources
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.csproj.GenerateResource.Cache
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.exe
+c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.pdb
