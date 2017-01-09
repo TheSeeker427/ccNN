@@ -7,3 +7,12 @@ c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.Pr
 c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.csproj.GenerateResource.Cache
 c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.exe
 c:\users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\obj\Debug\ccNN.pdb
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.dll.config
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.dll
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.Math.Core.dll
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.Math.dll
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.Neuro.dll
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.xml
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.Math.xml
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.Math.Core.xml
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ccNN\bin\Debug\Accord.Neuro.xml
