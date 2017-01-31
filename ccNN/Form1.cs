@@ -29,6 +29,7 @@ namespace ccNN
             mindGraphics = this.panel1.CreateGraphics();
             drawer = new drawBrain(mindGraphics, network);
             drawer2 = new drawBrain(100, mindGraphics, network2);
+            
 
             dataStore.init();
 

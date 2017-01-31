@@ -1,0 +1,12 @@
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\bin\Debug\ImgEnhancer.exe.config
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\obj\Debug\ImgEnhancer.csprojResolveAssemblyReference.cache
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\obj\Debug\ImgEnhancer.Form1.resources
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\obj\Debug\ImgEnhancer.Properties.Resources.resources
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\obj\Debug\ImgEnhancer.csproj.GenerateResource.Cache
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\bin\Debug\Accord.dll.config
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\bin\Debug\ImgEnhancer.exe
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\bin\Debug\ImgEnhancer.pdb
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\bin\Debug\ccNN.dll
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\bin\Debug\ccNN.pdb
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\obj\Debug\ImgEnhancer.exe
+C:\Users\carr4\documents\visual studio 2015\Projects\ccNN\ImgEnhancer\obj\Debug\ImgEnhancer.pdb
