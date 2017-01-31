@@ -32,9 +32,28 @@ namespace ccNN
             headBox.MouseDown += PictureBox1_MouseDown;
             headBox.MouseUp += PictureBox1_MouseUp;
             headBox.MouseMove += PictureBox1_MouseMove;
+            this.LostFocus += Epyllion_LostFocus;
+            this.GotFocus += Epyllion_GotFocus;
+            pictureBox1.LostFocus += Epyllion_LostFocus;
+            pictureBox1.GotFocus += Epyllion_GotFocus;
+            richTextBox1.LostFocus += Epyllion_LostFocus;
+            richTextBox1.GotFocus += Epyllion_GotFocus;
 
             CommandLine.init();
             richTextBox1.KeyUp += RichTextBox1_KeyUp;
+        }
+
+        private void Epyllion_GotFocus(object sender, EventArgs e)
+        {
+
+            this.Opacity = 1;
+        }
+
+        private void Epyllion_LostFocus(object sender, EventArgs e)
+        {
+            
+            this.Opacity = .4;
+
         }
 
         private void PictureBox1_MouseMove(object sender, MouseEventArgs e)
@@ -101,6 +120,7 @@ namespace ccNN
         {
             headBox.Location = epy.head.location;
             headBox.Size = epy.head.size;
+            headBox.Image = epy.head.img;
 
             pictureBox1.Size = epy.body.size;
             pictureBox1.Location = epy.body.location;
@@ -112,11 +132,6 @@ namespace ccNN
             epyUpdate();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         int oldText = 0;
         private void ConsoleSend()
         {
@@ -124,8 +139,6 @@ namespace ccNN
             richTextBox1.Text += "User: " + text;
             richTextBox1.Select(richTextBox1.Text.Length - 1, 0);
             richTextBox1.ScrollToCaret();
-
-            
 
             richTextBox1.Text += CommandLine.ReadLine(text) + "\n\n";
             oldText = richTextBox1.Text.Length - 1;

@@ -48,6 +48,34 @@ namespace ccNN.EpyllionChar
                     break;
 
             }
+            
+            
+            if (blinkTimer <= 0)
+            {
+                isblinking = true;
+                blinkwait = 1;
+                blinkTimer = r.Next(10,50);
+            }
+            blinkTimer--;
+            if (isblinking)
+                blink();
+        }
+Random r = new Random();
+        int blinkwait = 2;
+        int blinkTimer = 0;
+        bool isblinking = false;
+        private void blink()
+        {
+            if (blinkwait <= 0)
+            {
+                head.img = head.EyeOpenImg;
+                isblinking = false;
+            }else
+            {
+                head.img = head.EyeClosedImg;
+                blinkwait--;
+            }
+           
         }
 
         private void idle()

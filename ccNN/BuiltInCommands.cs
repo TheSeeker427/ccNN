@@ -16,7 +16,7 @@ namespace ccNN
             Process p = new Process();
             // Redirect the output stream of the child process.
             p.StartInfo.UseShellExecute = false;
-            p.StartInfo.RedirectStandardOutput = true;
+           // p.StartInfo.RedirectStandardOutput = true;
             
             Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory + @"../Plugins/nmap/nmap.exe");
             p.StartInfo.FileName = AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\Plugins\nmap\nmap.exe";

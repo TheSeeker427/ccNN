@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Syn.Bot;
 using System.IO;
+using System.Threading;
 
 namespace ccNN
 {
@@ -16,7 +17,7 @@ namespace ccNN
         public static void init()
         {
             Chatbot = new Syn.Bot.Siml.SimlBot();
-            Chatbot.PackageManager.LoadFromString(File.ReadAllText( @"C:\Users\carr4\Documents\Visual Studio 2015\Projects\ccNN\ccNN\Resources\siml-english-base-master\epy.simlpk"));
+            Chatbot.PackageManager.LoadFromString(File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"..\..\Resources\siml-english-base-master\epy.simlpk"));
         }
         public static string ReadLine(String text)
         {
@@ -29,7 +30,7 @@ namespace ccNN
             }else
             if (text.Contains("nmap"))
             {
-                new BasicTextForm(BuiltInCommands.nmap());
+                new Thread(() => BuiltInCommands.nmap()).Start();
             }else
             response = Chatbot.Chat(text).BotMessage;
             return response;
